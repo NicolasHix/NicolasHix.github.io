@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    text-align: center;
+    }
+    nav ul li {
+        display: inline-block; /* Makes items sit next to each other */
+        margin: 0 15px; /* Adds space between links */
+    }    
+    .profile-img {
+    width: 120px;  /* Adjust the size */
+    height: 120px; /* Keeps it a square */
+    border-radius: 50%; /* Makes it circular */
+    object-fit: cover; /* Prevents stretching */
+    display: block;
+    margin: 0 auto;
+    text-align: center; /* Centers the text */
+    }
+    hr {
+        border: none;       /* Removes default border */
+        height: 2px;        /* Adjust thickness */
+        background: black;  /* Change color if needed */
+        width: 100%;        /* Makes it full width */
+        margin: 0;          /* Removes extra space */
+    }
+    section {
+        margin: 20px; /* Adds space around content */
+    }
+    .projects {
+        width: 200px; /* Square dimensions */
+        height: 200px;
+        border: 1px solid black;
+        margin: 10px;
+        display: inline-flex; /* Flexbox for alignment */
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        text-align: center; /* Centers text */
+    }
