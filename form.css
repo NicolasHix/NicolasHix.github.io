@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    place-items: center;       /* This centers both horizontally and vertically */
+    height: 100vh;              /* Full viewport height */
+    margin: 0;                  /* Remove default body margin */
+    background-color: #322975;  /* Optional: background color */
+    color: white;          /* Optional: font color */
+}
+
+form {
+    width: 80%;                /* Adjust form width */
+    max-width: 600px;          /* Maximum width for form */
+    padding: 20px;
+    background-color: #1a134b;    /* Background color for form */
+    border-radius: 8px;        /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for form */
+}
