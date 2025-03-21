@@ -5,6 +5,8 @@ body {
     background-color: rgb(15, 9, 56);
     text-align: center;
     color: white;
+    z-index: 1;
+     position: relative;
     }
     nav ul li {
         display: inline-block; /* Makes items sit next to each other */
