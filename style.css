@@ -47,6 +47,7 @@ body {
     background: url('https://www.transparenttextures.com/patterns/stardust.png');
     animation: moveStars 50s linear infinite;
     position: fixed;
+    z-index: -1
 }
 
 .stars2 {
