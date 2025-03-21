@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: rgb(15, 9, 56);
     text-align: center;
+    color: white;
     }
     nav ul li {
         display: inline-block; /* Makes items sit next to each other */
@@ -37,6 +38,7 @@ body {
         justify-content: center; /* Centers horizontally */
         align-items: center; /* Centers vertically */
         text-align: center; /* Centers text */
+        background-color: black;
     }
 .stars, .stars2, .stars3 {
     position: absolute;
